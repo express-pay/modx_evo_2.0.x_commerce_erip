@@ -73,6 +73,8 @@ class ExpresspayEripPayment extends Payment implements \Commerce\Interfaces\Paym
             "House"              => '',
             "Building"           => '',
             "Apartment"          => '',
+            'ReturnUrl'          => '-',
+            'FailUrl'            => '-',
             "IsNameEditable"     => $this->getSetting('isNameEdit'),
             "IsAddressEditable"  => $this->getSetting('isAddressEdit'),
             "IsAmountEditable"   => $this->getSetting('isAmountEdit'),
